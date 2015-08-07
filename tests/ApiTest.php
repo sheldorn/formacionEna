@@ -1,6 +1,6 @@
 <?php
 
-namespace alexgt9;
+namespace sheldorn;
 
 class GoogleTest extends \PHPUnit_Framework_TestCase
 {

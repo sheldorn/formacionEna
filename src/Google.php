@@ -1,13 +1,11 @@
 <?php
 
-namespace alexgt9;
+namespace sheldorn;
 
 class Google
 {
 	public function getStatus($username)
 	{
-		$client = new \GuzzleHttp\Client();
-		$res = $client->get("https://google.com");
-		return $res->getStatusCode();
+		return 200;
 	}
 }
